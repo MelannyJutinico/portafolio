@@ -7,6 +7,65 @@
     <title>Error 404</title>
 </head>
 <body>
-    <h1>Error: Pagina no encontrada</h1>
+    <div class="bg-4">
+            <h1 class="t-stroke t-shadow-halftone2">Pagina no encontrada</h1>
+            <a role="button" class="btn btn-outline-light btn-lg" href="/"><i class="fa-brands fa-github"></i>  Volver</a>
+    </div>
+    <div id="particles-js">
+        <script src="./static/js/particles.js"></script>
+        
+    <script src="./static/js/app.js"></script>
+    
+    </div>
+
+    
+   <style>
+    #particles-js{
+        height: 100%;
+        background-color: #98233c;
+        z-index: 0;
+     
+    }
+    .bg-4{
+   background: linear-gradient(to right, rgb(229, 90, 132), rgb(222, 209, 116));
+   z-index: 100;   position: relative;
+}
+body{
+    background-color: #98233c;
+}
+.t-stroke {
+    color: transparent;
+    -moz-text-stroke-width: 2px;
+    -webkit-text-stroke-width: 1px;
+    -moz-text-stroke-color: #000000;
+    -webkit-text-stroke-color: #ffffff;
+ }
+.t-shadow-halftone2 {
+    position: relative;
+}
+ 
+.t-shadow-halftone2::after {
+    content: "Error";
+    font-size: 10rem;
+    letter-spacing: 0px;
+    background-size: 100%;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -moz-text-stroke-width: 0;
+    -webkit-text-stroke-width: 0;
+    position: absolute;
+    text-align: center;
+    left: 0px;
+    right: 0;
+    top: 0px;
+    z-index: -1;
+    background-color: rgb(230, 86, 117);
+    transition: all 0.5s ease;
+    text-shadow: 10px 2px aliceblue;
+}
+
+   </style>
 </body>
 </html>
