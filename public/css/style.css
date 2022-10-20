@@ -34,7 +34,7 @@
 #name {
     color: white;
     font-family: neonLight;
-    font-size: 30px;
+    font-size: 50px;
 }
 
 .title {
@@ -139,4 +139,17 @@
     -webkit-border-radius: 35px 0px 35px 0px;
     border: 2px solid #e2e2e2;
     margin-top: 10%;
+}
+#skills i{
+    font-size: 50px;
+}
+.typed{
+    display: inline;
+    color: aliceblue;
+    font-size: 40px;
+    font-family: 'BIZ UDGothic', serif;
+}
+.typed-cursor{
+    font-size: 40px;
+    color: aliceblue;
 }
