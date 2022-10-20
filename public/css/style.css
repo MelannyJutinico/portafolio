@@ -1,3 +1,142 @@
-body {
-    background-color: #BC2F40;
+@font-face {
+    font-family: neonLight;
+    src: url(./../fonts/full\ Pack\ 2025.ttf);
+}
+
+@font-face {
+    font-family: paper;
+    src: url(./../fonts/OldNewspaperTypes.ttf);
+}
+
+@font-face {
+    font-family: neonDark;
+    src: url(./../fonts/Name\ Smile.otf);
+}
+
+#index {
+    margin: 50px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+* {
+    /* CSS Reset */
+    margin: 0;
+    padding: 0;
+}
+
+#name {
+    color: white;
+    font-family: neonLight;
+    font-size: 30px;
+}
+
+.title {
+    color: aliceblue;
+    font-family: neonDark;
+    font-size: 50px;
+    align-items: center;
+    margin-top: 10%;
+}
+
+#grettings {
+    color: white;
+    font-family: paper;
+    font-size: 30px;
+}
+
+#me {
+    width: 25%;
+    border-radius: 100%;
+    margin: 5%;
+}
+
+#data {
+    display: flex;
+    margin-top: 10%;
+    justify-content: center;
+    align-items: center;
+}
+
+#me2 {
+    width: 110%;
+    border-radius: 5%;
+}
+
+#table {
+    margin-left: 5%;
+}
+
+#about {
+    font-family: neonDark;
+    font-size: 30px;
+    color: aliceblue;
+}
+
+.inf {
+    font-family: 'BIZ UDGothic', serif;
+    font-size: 20px;
+    color: aliceblue;
+}
+
+#list {
+    list-style: none;
+    column-count: 2;
+    margin: -4%;
+}
+
+.education {
+    column-count: 2;
+    font-family: 'BIZ UDGothic', serif;
+}
+
+.text-slider-items {
+    display: none;
+}
+
+.education h3 {
+    color: aliceblue;
+}
+
+.year {
+    font-size: 15px;
+    color: rgb(222, 227, 231);
+}
+
+.place {
+    color: #a7afb4;
+}
+
+.des {
+    font-size: 17px;
+    margin-top: 5%;
+    padding-right: 10%;
+    color: #cfd6db;
+}
+
+.education li {
+    list-style-type: circle;
+    color: aliceblue;
+}
+
+#skills {
+    font-family: neonLight;
+    color: #252525;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    background: #d8d8d8;
+    overflow: hidden;
+    padding: 20px;
+    border-radius: 35px 0px 35px 0px;
+    -moz-border-radius: 35px 0px 35px 0px;
+    -webkit-border-radius: 35px 0px 35px 0px;
+    border: 2px solid #e2e2e2;
+    margin-top: 10%;
 }
